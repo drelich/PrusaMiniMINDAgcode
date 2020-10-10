@@ -26,7 +26,8 @@ G1 Y-2.0 X179 F2400
 G1 X170 F1000
 G1 X110.0 E8.0 F900
 G1 X40.0 E10.0 F700
-G1 Z2 F1000 ; lift nozzle```
+G1 Z2 F1000 ; lift nozzle
+```
 
 ## End Gcode
 ```G1 E-1 F2100 ; retract
@@ -37,4 +38,5 @@ M104 S0 ; turn off temperature
 M140 S0 ; turn off heatbed
 M107 ; turn off fan
 M221 S100 ; reset flow
-M84 ; disable motors```
+M84 ; disable motors
+```
