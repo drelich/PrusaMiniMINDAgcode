@@ -1,13 +1,13 @@
 # Prusa Mini MINDA gcode to ensure first layer consistency
 This alternative start/end gcode was sent to me by Olof Ogland (https://www.olofogland.se), the designer of Bondtech extruder upgrade for the Prusa Mini. Its goal is to make the first layer z-height somewhat more consistent. It's been working great so far, and a lot better than the pre-heat method I used to use before.
 
-## Start Gcode:
-`M115 U3.2.1 ; tell printer latest fw version\
+## Start Gcode
+`M115 U3.2.1 ; tell printer latest fw version \
 G28 ; home all without mesh bed level \
-G90 ; use absolute coordinates\
-M83 ; extruder relative mode\
+G90 ; use absolute coordinates \
+M83 ; extruder relative mode \
 G0 X180 Y180 Z180 F1500 ; this is a good MINDA cooling position and to have place to clean bed\
-M104 S176; set extruder temp\
+M104 S176; set extruder temp \
 M140 S[first_layer_bed_temperature] ; set bed temp
 M109 S176 ; wait for extruder temp
 M190 S[first_layer_bed_temperature] ; wait for bed temp
