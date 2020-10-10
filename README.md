@@ -1,4 +1,4 @@
-# Prusa Mini MINDA gcode to ensure first layer consistency
+# Prusa Mini gcode to improve first layer consistency
 This alternative start/end gcode was sent to me by Olof Ogland (https://www.olofogland.se), the designer of Bondtech extruder upgrade for the Prusa Mini. Its goal is to make the first layer z-height somewhat more consistent. It's been working great so far, and a lot better than the pre-heat method I used to use before.
 
 ## Start Gcode
