@@ -29,12 +29,12 @@ G1 X40.0 E10.0 F700
 G1 Z2 F1000 ; lift nozzle`
 
 ## End Gcode
-`G1 E-1 F2100 ; retract
-{if layer_z < max_print_height}G1 Z{z_offset+min(layer_z+5, max_print_height)}{endif} F720 ; Move print head up
-G1 X178 Y180 F4200 ; park print head
-G4 ; wait
-M104 S0 ; turn off temperature
-M140 S0 ; turn off heatbed
-M107 ; turn off fan
-M221 S100 ; reset flow
+`G1 E-1 F2100 ; retract \
+{if layer_z < max_print_height}G1 Z{z_offset+min(layer_z+5, max_print_height)}{endif} F720 ; Move print head up \
+G1 X178 Y180 F4200 ; park print head \
+G4 ; wait\
+M104 S0 ; turn off temperature\
+M140 S0 ; turn off heatbed\
+M107 ; turn off fan\
+M221 S100 ; reset flow\
 M84 ; disable motors`
