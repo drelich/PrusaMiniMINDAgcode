@@ -3,6 +3,8 @@ This alternative start/end gcode was sent to me by [Olof Ogland](https://www.olo
 
 Its goal is to make the first layer z-height somewhat more consistent. It's been working great so far, and a lot better than the pre-heat method I used to use before.
 
+**WARNING:** The placeholders used in the gcode below work with PrusaSlicer only. If you're using Cura or S3D, you will need to update it accordingly.
+
 ## Start Gcode
 ```M115 U3.2.1 ; tell printer latest fw version
 G28 ; home all without mesh bed level
