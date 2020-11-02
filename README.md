@@ -6,7 +6,7 @@ Unlike the PINDA 2 probe that comes with the MK3S printer, the Prusa Mini's MIND
 ## Option 1 - Keep the MINDA probe away from bed as long as possible
 This alternative start/end gcode was sent to me by [Olof Ogland](https://www.olofogland.se), the designer of [Bondtech extruder upgrade for the Prusa Mini](https://www.bondtech.se/en/product/prusa-mini/) and [Bondtech Heat-break Kit for Prusa Mini](https://www.bondtech.se/en/product/bondtech-heat-break-for-prusa-mini/). 
 
-It seems to work well if you're able to work in a room with stable ambient temperature.
+It seems to work well if you're able to work in a room with stable ambient temperature or your printer sits in an enclosure.
 
 **WARNING:** The placeholders used in the gcode below work with PrusaSlicer only. If you're using Cura or S3D, you will need to update it accordingly.
 
