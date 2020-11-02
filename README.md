@@ -55,6 +55,8 @@ After a while of using Option 1 and getting somewhat mixed results due to incons
 
 It should be noted that before the first print of the day, the pre-heat period should be made a little longer (15 to 20 minutes works for me). Any subsequent print, provided the break between the prints is only a few minutes, you only need the pre-set 3 minute pre-heat cycle.
 
+**WARNING:** The placeholders used in the gcode below work with PrusaSlicer only. If you're using Cura or S3D, you will need to update it accordingly.
+
 ### Start G-code
 ```
 G90 ; use absolute coordinates
